@@ -24,12 +24,12 @@
 			"com.tldraw.shape.note": 9,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
-			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.arrow": 6,
 			"com.tldraw.shape.highlight": 1,
 			"com.tldraw.shape.embed": 4,
-			"com.tldraw.shape.image": 4,
-			"com.tldraw.shape.video": 2,
-			"com.tldraw.binding.arrow": 0
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 3,
+			"com.tldraw.binding.arrow": 1
 		}
 	},
 	"records": [
@@ -3805,9 +3805,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 9513.849512942359,
-			"y": 2148.29993224875,
-			"lastActivityTimestamp": 1744139898665,
+			"x": -601.3545869716256,
+			"y": -1423.9041240299473,
+			"lastActivityTimestamp": 0,
 			"meta": {}
 		},
 		{
@@ -28446,9 +28446,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -8565.398386808924,
-			"y": -1778.4695326212009,
-			"z": 1.068057142943898,
+			"x": 601.3545869716256,
+			"y": 1423.9041240299473,
+			"z": 0.09101953427471265,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -59115,7 +59115,8 @@
 					}
 				},
 				"flipX": false,
-				"flipY": false
+				"flipY": false,
+				"altText": ""
 			},
 			"parentId": "page:page",
 			"index": "b2p8hR",
@@ -60130,7 +60131,9 @@
 				"text": "",
 				"labelPosition": 0.5,
 				"font": "draw",
-				"scale": 1
+				"scale": 1,
+				"kind": "arc",
+				"elbowMidPoint": 0.5
 			},
 			"parentId": "page:page",
 			"index": "b3i0fB",
@@ -132544,14 +132547,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:color": "orange",
-				"tldraw:size": "l"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "cross",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -132561,8 +132561,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1318,
-				"h": 606
+				"w": 1001,
+				"h": 600
 			},
 			"insets": [
 				false,
@@ -132579,7 +132579,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": null,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
@@ -135396,7 +135396,8 @@
 				"url": "",
 				"crop": null,
 				"flipX": false,
-				"flipY": false
+				"flipY": false,
+				"altText": ""
 			},
 			"parentId": "page:page",
 			"index": "b0n3lQ",
